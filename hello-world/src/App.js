@@ -25,9 +25,9 @@ const NotFound = () => (
   <h1>404.. This page is not found!</h1>)
 
 const Nav = () => (
-  <div>
-    <Link to='/'>Home</Link>&nbsp;
-    <Link to='/address'>Address</Link>
+  <div className='link-header'>
+    <Link className='link' to='/'><div className='link-size'>Home</div></Link>
+    <Link className='link' to='/address'><div className='link-size'>Address</div></Link>
   </div>
 )
 
